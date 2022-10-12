@@ -1,0 +1,366 @@
+#azul {
+    background-color: blue;
+}
+
+#body {
+    background-color: blue;
+
+}
+
+#tituloprincipal {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.subtitulo {
+    display: inline-block;
+    position: fixed;
+    Top: 0px;
+    left: 10px;
+}
+
+#navegador {
+    background-color: blue;
+}
+
+#cartel {
+    border-radius: 26%;
+    width: 80px;
+    display: block;
+    position: fixed;
+    left: 1200px;
+    top: 10px;
+}
+
+#imagen-check {
+    visibility: hidden;
+}
+
+#imagen-check:checked+.menu {
+    display: block;
+}
+
+.menu {
+    color: white;
+    position: fixed;
+    top: 96px;
+    left: 1190px;
+    display: none;
+}
+
+nav {
+    display: inline-block;
+
+}
+
+#introducción {
+    display: flex;
+    justify-content: flex-starts;
+    align-items: center
+}
+
+#comencemos {
+    padding: 10px;
+
+}
+
+.nombreetiqueta {
+    text-align: center;
+}
+
+.primeralinea {
+    display: flex;
+    justify-content: baseline
+}
+
+.segundalinea {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#Elegantes {
+    background-color: brown;
+}
+
+.Elegante {
+    width: 239.5px;
+}
+
+#Futuristas {
+    background-color: violet;
+}
+
+.Futuristas {
+    width: 270px;
+}
+
+#Industrial {
+    background-color: sienna;
+}
+
+.Industrial {
+    width: 266px;
+}
+
+.Minimalista {
+    width: 286px;
+}
+
+#minimalista {
+    background-color: rgb(210, 221, 250);
+}
+
+.Moderno {
+    width: 268px;
+}
+
+#moderno {
+    background-color: rgba(180, 46, 57, 0.596);
+
+}
+
+.Niños {
+    width: 330px;
+}
+
+#niños {
+    background-color: green;
+}
+
+.Adolecentes {
+    width: 508px;
+}
+
+#adolecentes {
+    background-color: salmon;
+}
+
+.Reciclado {
+    width: 188px;
+}
+
+#reciclado {
+    background-color: gray;
+}
+
+.Retro {
+    width: 137px;
+}
+
+#retro {
+    background-color: gold;
+
+}
+
+.Rustico {
+    width: 167px;
+}
+
+#rustico {
+    background-color: silver;
+
+}
+
+.primeralinea {
+    align-items: baseline;
+}
+
+.segundalinea {
+    align-items: baseline;
+}
+
+.footter {
+    background-color: rgb(66, 66, 109);
+
+}
+
+#link {
+    position: absolute;
+    top: 990px;
+    left: 900px;
+    font-size: 30px;
+    padding-right: 5cm;
+    margin-inline-end: 50px;
+}
+
+#linkelegente {
+    top: 1000px;
+    left: 500px;
+}
+
+#email {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#telefono {
+    border: 1px solid white;
+    padding: 12px;
+}
+
+#dirección {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+@media(max-width:800px) {
+    #cartel {
+        left: 708px;
+    }
+
+    .menu {
+        left: 675px;
+    }
+
+    #introducción {
+        width: 80%;
+    }
+
+    .primeralinea {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .segundalinea {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .Elegante {
+        width: 240px;
+    }
+
+    .Futuristas {
+        width: 270.5px;
+    }
+
+    .Niños {
+        width: 784px;
+    }
+
+    .Adolecentes {
+
+        width: 784px;
+    }
+
+    #Industrial {
+        width: 273px;
+    }
+
+    .Minimalista {
+        width: 404.5px;
+    }
+
+    .Moderno {
+        width: 379px;
+    }
+
+    .Reciclado {
+        width: 281.8px;
+    }
+
+    .Retro {
+        width: 249.9px;
+    }
+
+    .Rustico {
+        width: 249.9px;
+    }
+
+    #link {
+        top: 2950px;
+        left: 500px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:400px) {
+    #cartel {
+        left: 290px;
+        width: 40px;
+    }
+
+    .menu {
+        left: 255px;
+        top: 40px;
+    }
+
+    #tituloprincipal {
+        font-size: 20px;
+        color: gold;
+    }
+
+    #introducción {
+        width: 90%;
+    }
+
+    .primeralinea {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .segundalinea {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .Elegante {
+        width: 384px;
+    }
+
+    .Futuristas {
+        width: 384px;
+    }
+
+    .Industrial {
+        width: 384px;
+    }
+
+    .Niños {
+        width: 384px;
+    }
+
+    .Adolecentes {
+
+        width: 384px;
+    }
+
+    #Industrial {
+        width: 384px;
+    }
+
+    .Minimalista {
+        width: 384px;
+    }
+
+    .Moderno {
+        width: 384px;
+    }
+
+    .Reciclado {
+        width: 384px;
+    }
+
+    .Retro {
+        width: 384px;
+    }
+
+    .Rustico {
+        width: 384px;
+    }
+
+    #link {
+        top: 6162px;
+        left: 7px;
+        background-color: rgb(66, 66, 109);
+        font-size: 20px;
+    }
+
+}
